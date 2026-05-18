@@ -10,6 +10,7 @@ pkgbase = espressif-ide-bin
 	depends = python-pip
 	depends = gtk3
 	depends = dfu-util
+	depends = webkit2gtk-4.1
 	options = !strip
 	source = espressif-ide-bin-4.2.0.tar.gz::https://dl.espressif.com/dl/idf-eclipse-plugin/ide/Espressif-IDE-4.2.0-linux.gtk.x86_64.tar.gz
 	source = espressif-ide.desktop
