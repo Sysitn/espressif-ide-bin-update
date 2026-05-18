@@ -9,6 +9,10 @@ arch=('x86_64')
 url="https://github.com/espressif/idf-eclipse-plugin"
 license=('EPL-2.0')
 depends=('java-runtime>=21' 'python' 'python-pip' 'gtk3' 'dfu-util' 'webkit2gtk-4.1')
+optdepends=('cmake: for building ESP-IDF projects'
+            'ninja: for building ESP-IDF projects'
+            'gcc: for compiling projects'
+            'git: for version control and ESP-IDF installation')
 options=('!strip')
 
 source=(
