@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Espressif IDE
+Comment=Espressif IDE based on Eclipse
+Exec=/opt/espressif-ide-bin/espressif-ide
+Icon=/opt/espressif-ide-bin/icon.xpm
+Terminal=false
+Type=Application
+Categories=Development;IDE;
+StartupWMClass=espressif-ide
