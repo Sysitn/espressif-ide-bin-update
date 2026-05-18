@@ -8,7 +8,7 @@ pkgdesc='Eclipse-based IDE for ESP-IDF development'
 arch=('x86_64')
 url="https://github.com/espressif/idf-eclipse-plugin"
 license=('EPL-2.0')
-depends=('java-runtime>=21' 'python' 'python-pip' 'gtk3' 'dfu-util')
+depends=('java-runtime>=21' 'python' 'python-pip' 'gtk3' 'dfu-util' 'webkit2gtk-4.1')
 options=('!strip')
 
 source=(
